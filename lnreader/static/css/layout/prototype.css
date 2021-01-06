@@ -1,0 +1,21 @@
+/**************************[Prototype]*************************************/
+:root{
+		/*============[Color]=============*/
+		--pink : #cb8292;
+		--blue : #f3b3a6;
+		--white : #e7ecef;
+		--purple :#071013 ;
+		--yellow : #d8a47f;
+		/*=============[font]=============*/
+		--first :'Poppins', sans-serif;;
+		--second : 'Montserrat', sans-serif;
+	}
+	body{
+			background-color: var(--white);
+			background: url('http://demo.mangabooth.com/wp-content/themes/madara/images/bg-search.jpg');
+			
+		}
+	.content{
+		margin-top: 1rem;
+		}
+		

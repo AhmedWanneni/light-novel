@@ -1,0 +1,241 @@
+#focus-screen {
+    width: 100%;
+    position: absolute;
+    background: #000000d9;
+    z-index: 9999;
+    display: none;
+    color: white;
+    padding-bottom: 144rem;
+}
+#focus-screen>.content {
+    background: white;
+    color: black;
+    width: 68rem;
+    margin-left: 7rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.focus-screen-top>span:nth-child(4)>button{
+background: none;
+    border: none;
+    outline: none;
+float: right;
+}
+    .focus-screen-top>span:nth-child(4)>button>svg{
+    	width: 20px;
+    	fill: white;
+    }
+    .focus-screen-top>span:nth-child(5)>button{
+background: none;
+    border: none;
+    outline: none;
+float: right;
+}
+    .focus-screen-top>span:nth-child(5)>button>svg{
+    	width: 20px;
+    	fill: white;
+    }
+      .focus-screen-top>span:nth-child(6)>button{
+background: none;
+    border: none;
+    outline: none;
+float: right;
+}
+    .focus-screen-top>span:nth-child(6)>button>svg{
+    	width: 20px;
+    	fill: white;
+    }
+    .focus-logo>img{
+    	width: 160px;
+    }
+    .ln-title-focus {
+    margin-top: -38px;
+    margin-left: 11rem;
+    line-height: 1;
+    font-size: 18px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-weight: 500;
+}
+
+        .select-volume-focus{margin-left: 10.7rem;
+    margin-top: 0.09rem;
+    background: none;
+    color: white;
+    border: none;}
+    .setting-focus-btn {
+    margin-top: -17px;
+    margin-right: 3px;
+}
+   .report-focus-btn {
+    margin-top: -1.1rem;
+    margin-right: 1rem;
+}
+    .close-focus {
+    margin-right: 1rem;
+    margin-top: -1.1rem;
+}
+   .focus-screen-top{
+    	padding-top: 10px;
+    }
+ #a-plus-focus {
+    float: right;
+    margin-right: 2rem;
+    margin-top: -9rem;
+    border: none;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: 1px 0px 1px 1px #0c0c0ce0;
+    background: #e4e4e4;
+    outline: none;
+    position: absolute;
+    top: 41rem;
+    right: 1rem;
+}
+  #a-moins-focus {
+    float: right;
+    margin-right: 2rem;
+    margin-top: -5rem;
+    border: none;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: 1px 0px 1px 1px #0c0c0ce0;
+    background: #e4e4e4;
+    outline: none;
+    position: absolute;
+    top: 40.5rem;
+    right: 1rem;
+}
+    #a-plus-focus>svg{
+    	width: 1rem;
+    	fill: #232323;
+
+    }
+    #a-moins-focus>svg{
+    	width: 1rem;
+    	fill: #232323;
+    }
+
+  .setting-focus{
+    width: 21rem;
+    background: #fff;
+    position: absolute;
+    top: 3.5rem;
+    right: 6rem;
+    border: solid 1px #80808040;
+    box-shadow: 0 0 5px rgba(0,0,0,.0975);
+    padding: 1rem;
+    display: none;
+    z-index: 100;
+    color: black;
+}
+
+.setting-focus>table>tbody>tr>td>input[type="range"]{
+    -webkit-appearance: none;
+  
+  height: 0.4rem;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 1rem;
+}
+.setting-focus>table>tbody>tr>td>input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background: #563d7c;
+  cursor: pointer;
+}
+.setting-focus>table>tbody>tr>td>label{
+    font-family: 'Poppins', sans-serif;
+    color: #545454;
+}
+.setting-focus>table>tbody>tr>td>select{
+        font-family: 'Poppins', sans-serif;
+    color: #545454;
+    }
+
+.setting-focus>div>button{
+        background: #563d7c;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+    .setting-focus:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    top: -9px;
+    right: 8px;
+    transform: rotate(45deg);
+    width: 1rem;
+    height: 1rem;
+    border: solid 1px #80808066;
+    border-bottom: none;
+    border-right: none;
+}
+.report-focus {
+    width: 24rem;
+    background: #fff;
+    position: absolute;
+    top: 3.3rem;
+    right: 4rem;
+    border: solid 1px #80808040;
+    box-shadow: 0 0 5px rgba(0,0,0,.0975);
+    padding: 1rem;
+    display: none;
+    z-index: 4;
+}
+
+    .report-focus:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    top: -9px;
+    right: 8px;
+    transform: rotate(45deg);
+    width: 1rem;
+    height: 1rem;
+    border: solid 1px #80808066;
+    border-bottom: none;
+    border-right: none;
+}
+.report-focus>textarea{
+        width: 22rem;
+    height: 8rem;
+    margin-bottom: 0.5rem;
+}
+.report-focus>button{
+       background: #563d7c;
+    border: none;
+    color: white;
+    fill: white;
+    width: 7rem;
+    height: 2rem;
+    margin-left: 7.5rem;
+}
+.report-focus>button>svg{
+   width: 1rem;
+    margin-right: .2rem;
+    margin-top: -0.1rem;
+}
+.report-focus>h3{
+    color: #563d7c;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}

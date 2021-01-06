@@ -1,0 +1,31 @@
+.new_fav_update {
+    width: 5%;
+    margin: 1rem;
+    display: inline-block;
+    width: 38%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 6px;
+    margin-top: 6px;
+    height: 0;
+    cursor: pointer
+}
+.new_fav_update>.nbr {
+    height: 20px;
+    width: 20px;
+    background: #73628A;
+    position: relative;
+    right: -96px;
+    top: -1px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    border-radius: 4px;
+    z-index: 9999;
+    line-height: 17px;
+}
+.manga-card-title:hover{
+	    color: #73628a;
+	    cursor : pointer;
+
+}

@@ -1,0 +1,72 @@
+.donation-content {
+    background: #fff;
+    box-shadow: 0px 2px 2px 1px #53338333;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.donation-content>h3 {
+    color: #68b030;
+    text-align: center;
+    margin : 0 auto;
+    width: 70%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-bottom: solid 1px #80808057;
+    font-size: 35px;
+    font-family: var(--first);
+    margin-bottom: 1.7rem;
+}
+
+.form-donation input[type=text] {
+    border: 1px solid #848282;
+    color: #484848;
+    font-size: 16px;
+    height: 44px;
+    margin: 9px;
+    padding: 8px 12px;
+    border-color: #68b030;
+    width: 100%;
+    margin-left: 28%;
+    margin-bottom: 1rem;
+}
+.form-donation button {
+    background-color: #68b030;
+    color: #fff;
+    text-transform: uppercase;
+    width: 300px;
+    margin-left: 36%;
+    border: none;
+    margin-bottom: 1rem;
+    padding: .4rem;
+    font-size: 18px;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+.donation-content>div>a{
+    color: #7d4698;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+     
+}
+.donation-content>div>a:hover{
+    color : #68b030;
+}
+.donation-type-link{
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.donation-type-link:nth-child(3){
+    margin-bottom : 1.5rem;
+}
+.cards-icons {
+    margin-left: 28%;
+}
+.cards-icons img{
+    width: 2rem;
+    display: inline;
+    margin-right: 1%;
+}

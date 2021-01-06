@@ -1,0 +1,72 @@
+/******************************Genres*************************************/
+.genres {
+    margin-bottom: 1rem;
+   
+    background: white;
+    margin: 0;
+        margin-bottom: 0px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 2px 1px #53338333;
+}
+.genres > .col-md-12 > table{
+	background-color: white;
+
+border: none;
+width: 100%;
+padding-top: 0.5rem;
+    margin-top: 1rem;
+}
+.genres > .col-md-12 > table > tbody > tr > td {
+    padding: 8px 10px 9px;
+    position: relative;
+    text-transform: none;
+    color: #694ba1;
+    font-family: 'Poppins', sans-serif;
+}
+.genres > .col-md-12 > table  > tbody > tr > td:hover{
+    color : #563d7c;
+    cursor: pointer;
+    font-weight: 700;
+}
+.genres > .col-md-12 >.see-more{
+	border : none;
+
+    background: white;
+	width : 100%;
+line-height: 2rem;
+margin-top: 1.1rem;
+border-bottom: none;
+background-color: white;
+border-top: 1px solid #c0c1c2;
+text-align: center;
+margin: 0;
+    margin-top: 0px;
+line-height: 37px;
+margin-top: 1rem;
+}
+.genres > .col-md-12 >.see-more:active{
+    font-weight:600;
+}
+.g-box-title {
+    font-size: 18px;
+    font-family: "Nunito Sans",sans-serif;
+    color: #64479a;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: solid 1px #d4d1d1;
+    line-height: 47px;
+    text-indent: 1rem;
+}
+.g-box-title>svg{
+    width: 20px;
+    fill: #73628a;
+    margin-top: -6px;
+    margin-left: 7px;
+}
+.genres>.col-md-12>table>tbody>tr>td>svg{
+    width: 20px;
+    fill: #73628a;
+}
+.see-more>svg{
+    width: 20px;
+    margin-left: 10px;}

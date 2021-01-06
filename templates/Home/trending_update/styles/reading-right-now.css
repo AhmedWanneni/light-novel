@@ -1,0 +1,21 @@
+/*****************************Reading right now*******************************/
+.read-right-now {
+    padding-bottom: 1rem;
+    margin-left: 0;
+    
+    
+    margin: 0;
+   
+}
+    .now-box-more{
+    	color: #177fdb;
+		float :right;
+    }
+    .now-box-title>span{
+    		font-size: 1.5em;
+font-family: "Nunito Sans",sans-serif;
+line-height: 35px;
+color: #694ba1;
+text-transform: uppercase;
+font-weight: 500;
+    }

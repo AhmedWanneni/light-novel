@@ -1,0 +1,11 @@
+	:root{
+		/*============[Color]=============*/
+		--pink : #ff6b6b;
+
+		--blue : #f3b3a6;
+		--white : #e7ecef;
+		--purple :#071013 ;
+		--yellow : #d8a47f;
+		/*=============[font]=============*/
+		--first :'Poppins', sans-serif;;
+	}

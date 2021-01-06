@@ -1,0 +1,79 @@
+
+.footer {
+    width: 100%;
+    background: #563d7c;
+    padding: 30px;
+    
+}
+.type-ln-footer {
+    color: #f8f9fa;
+    display: inline-block;
+    border: 1px solid #f8f9fa;
+    padding: 4px;
+    margin: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.type-ln-footer:hover{
+    color: #FFBF00;
+    border-color : #FFBF00;
+}
+.join_us {
+    margin-left: 105px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #796696;
+    width: 1076px;
+}
+
+
+.join_us>input {
+    width: 410px;
+    height: 42px;
+    font-size: 19px;
+    text-indent: 6px;
+    position: relative;
+    top: -64px;
+    left: 33rem;
+    outline: none;
+}
+.join_us>button {
+    background: #FFBF00;
+    border: none;
+    color: #111;
+    height: 42px;
+    width: 100px;
+    position: relative;
+    top: -66px;
+    left: 33rem;
+    outline: none;
+}
+    .join_us h2{
+        color:#F8F9FA;
+    }
+  .join_us h5 {
+    color: #F8F9FA;
+    margin-left: 61px;
+}
+    .social_media svg{
+        width: 25px;
+        fill: #F8F9FA;
+        margin-left: 12px;
+    }
+    .menu_footer{
+        color: #F8F9FA;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .all-ln-footer{
+        border-bottom: solid 1px #796696;
+    padding-bottom: 19px;
+    }
+    .social_media{
+        text-align: center;
+    padding-top: 14px;
+    }
+    .copyright{
+            color: #f8f9fa;
+    text-align: center;
+    }

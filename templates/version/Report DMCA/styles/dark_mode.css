@@ -1,0 +1,60 @@
+body{
+    background-image: none;
+background-color : #0f0e11;
+}
+
+.report-content-page {
+    background: #19171c;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    border: solid 1px #80808029;
+    color: #eeeeeec7;
+}
+input {
+    background: #333333;
+    color: #f8f9fa;
+    outline : none !important;
+}
+select{
+    background: #333333;
+    color: #f8f9fa;
+    outline : none !important;
+}
+select option{
+    color: #f8f9fa;
+    outline : none !important;
+}
+textarea{
+    background: #333333;
+    color: #f8f9fa;
+    outline : none !important;
+}
+.report-content-page>h1 {
+    font-size: 1.6em;
+    font-family: var(--first);
+    line-height: 35px;
+    color: #f8f9fa;
+    font-weight: 500;
+    border-bottom: solid 1px #d4d1d161;
+    padding-bottom: 0.4rem;
+    margin-top: .4rem;
+}
+.ads {
+    background: #19171c;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    border: solid 1px #8080805e;
+}
+
+.ads>h3 {
+    font-size: 1.5em;
+    font-family: "Nunito Sans",sans-serif;
+    line-height: 35px;
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: solid 1px #d4d1d15c;
+    text-align: center;
+}

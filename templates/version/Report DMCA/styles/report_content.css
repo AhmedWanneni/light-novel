@@ -1,0 +1,81 @@
+.report-content-page{
+background: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 2px 1px #53338333;}
+
+    .report-content-page input {
+        width: 44em;
+        text-indent: .3rem;
+        border: solid 1px #80808066;
+        height: 2rem;
+        border-radius: .2rem;
+        margin: 1rem;
+        margin-left: 0;
+    }
+.report-content-page textarea {
+    width: 44em;
+    text-indent: .3rem;
+    border: solid 1px #80808066;
+    height: 11rem;
+    border-radius: .2rem;
+    margin: 1rem;
+    margin-left: -2px;
+}
+
+.report-content-page>h1 {
+    font-size: 1.6em;
+    font-family: var(--first);
+    line-height: 35px;
+    color: #694ba1;
+    font-weight: 500;
+    border-bottom: solid 1px #d4d1d1;
+    padding-bottom: 0.4rem;
+    margin-top: .4rem;
+}
+
+    .ads{
+       
+        background: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 2px 1px #53338333;
+    }
+.ads>h3{
+    font-size: 1.5em;
+    font-family: "Nunito Sans",sans-serif;
+    line-height: 35px;
+    color: #694ba1;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: solid 1px #d4d1d1;
+    text-align: center;
+}
+table{
+    width : 100%;
+}
+.report-content-page select{
+    
+        width: 16rem;
+        margin: 1rem;
+        margin-left: 0;
+        border: solid 1px #80808059;
+        padding: .2rem;
+        border-radius: 4px;
+        color: #666;
+    
+}
+.report-content-page button {
+    margin: 1rem;
+    background: #563d7c;
+    border: none;
+    color: #fff;
+    padding: 1.2rem;
+    font-family: var(--first);
+    cursor: pointer;
+    outline: none !important;
+    border-radius: 5px;
+    margin-top: -0.5rem;
+    margin-right: 3.3%;
+    margin-left: 18.4rem;
+}

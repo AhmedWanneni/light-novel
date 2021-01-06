@@ -1,0 +1,61 @@
+/*For the profile only */
+.container-checkbox {
+    display: inline-block;
+    cursor : pointer;
+    user-select: none;
+width : 5rem;
+margin-left : 1rem;
+   
+}
+.container-checkbox:nth-child(2){
+}
+
+
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: .1rem;
+    border: solid 1px #80808078;
+    position: absolute;
+    top: 4px;
+}
+
+.container-checkbox input ~ .checkmark {
+    background-color: #cccccc40;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+    background-color: #9d8eb5;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);}

@@ -1,0 +1,121 @@
+/*************************************[Trending update]**************************************/
+.update {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding-top: 0.2rem;
+    box-shadow: 0px 2px 2px 1px #53338333;
+    height: 24%;
+}
+.update > .col-md-12 > .top-bar-update{
+	margin-left : 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.update > .col-md-12 >.top-bar-update >.update-box-title >p {
+    font-size: 1.6em;
+    font-family: var(--first);  
+    line-height: 35px;
+    color: #694ba1;
+    
+    font-weight: 500;
+    border-bottom: solid 1px #d4d1d1;
+    padding-bottom: 0.2rem;
+}
+.card-update{
+	display: inline-block;
+	margin-left : 1rem;
+	margin-top : 1rem;
+}
+
+.recommandation>.col-md-12>.row:nth-child(2)>.col-md-12>span{
+    color: rgba(0,0,0,.87);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+        margin-bottom: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;}
+    .recommandation>.col-md-12>.row:nth-child(1)>.col-md-12>span{font-size: 1rem;
+	font-weight: 400;
+	line-height: 24px;
+	color: #ff5722;}
+.update-box-title>p>svg {
+    width: 1.6rem;
+    fill: #694ba1;
+    margin-top: -.3rem;
+    margin-left: .1rem;
+    margin-right: -.1rem;
+} 
+	 .recommandation{padding-top: 1rem;}
+     @media only screen and (max-width: 768px){
+        .update{
+            margin : 0;
+            margin-bottom : 1rem;
+        }
+
+     }
+.update-box-title>span>svg {
+    width: 1.1rem;
+    fill: #73628a;
+    margin-top: -.1rem;
+    margin-left: 0.1rem;
+}
+.update > .col-md-12 >.top-bar-update > .update-box-title>span {
+    position: relative;
+    right: -642px;
+    top: -50px;
+    font-size: 1rem;
+    font-family: roboto;
+    color: #563d7c;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+.show-more-btn-next>svg {
+    width: 1.4rem;
+    fill: #888585;
+    margin-left: 0.3rem;
+}
+.show-more-btn-next {
+    position: relative;
+    right: -43rem;
+    top: -11rem;
+    background: #e4e4e4;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    z-index: 8;
+    border-radius: 100%;
+    border: solid #d0d0d080;
+    box-shadow: 1px 3px 8px 1px #80808038;
+    outline: none;
+}
+.show-more-btn-previous{
+    position: relative;
+    right: 1rem;
+    top: -11rem;
+    background: #e4e4e4;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    z-index: 8;
+    border-radius: 100%;
+    border: solid #d0d0d080;
+    box-shadow: 1px 3px 8px 1px #80808038;
+    outline: none;
+    transform: rotate(180deg);
+}
+.show-more-btn-previous:focus{
+    outline: none;
+}
+.show-more-btn-next:focus{
+    outline: none;
+}
+.show-more-btn-previous>svg {
+    width: 1.4rem;
+    fill: #888585;
+    margin-left: 0.3rem;
+    margin-top: -0.3rem;
+}

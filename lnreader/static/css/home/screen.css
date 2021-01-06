@@ -1,0 +1,185 @@
+/******************************Screen*****************************************/
+.screen{
+			  margin-bottom: 0.4rem;
+    	padding-top: 1rem;
+    	padding-bottom: 1rem;
+		background-color: white;
+		box-shadow: 0px 2px 2px 1px #53338333;
+		
+		}
+.title-box-screen{
+	color: rgba(0,0,0,.87);
+font-size: 24px;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 28px;
+padding: 0;
+margin: 0;
+text-transform: uppercase;
+}
+.top-bar-screen {
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #ebebeb;
+}
+.view-all{
+	float : right;
+	color: rgba(0,0,0,.87);
+font-size: 18px;
+font-size: 1.125rem;
+font-weight: 500;
+line-height: 21px;
+color: #29b6f6;
+margin-left: auto;
+text-transform: uppercase;
+line-height: 1;
+margin-top: 0.7rem;
+}
+/**************************/
+.manga-table{
+margin-top: 1rem;
+
+}
+
+.title-m-nbr{margin-top: 3rem;}
+.manga-table>.row{
+	
+}
+.manga-title-sc >.col-md-12 {color: rgba(0,0,0,.87);
+font-size: 16px;
+font-size: 1rem;
+font-weight: 600;
+line-height: 21px;}
+.nbr-chap-manga >.col-md-12{
+	color: rgba(0,0,0,.54);
+font-size: 14px;
+font-size: .875rem;
+font-weight: 400;
+line-height: 16px;
+}
+.time-r{
+    margin-top: 3rem;
+    color: rgba(0,0,0,.54);
+font-size: 14px;
+font-size: .875rem;
+font-weight: 400;
+line-height: 16px;
+}
+
+.top-bar-screen>.col-md-12>ul
+{
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+float : right;
+}
+.top-bar-screen>.col-md-12>ul>li{
+	display: inline-block;
+}
+.top-bar-screen>.col-md-12>ul>li>a{
+padding : 8px 10px 9px;
+position: relative;
+text-transform: none;
+color: #888888;
+font-family: 'Poppins', sans-serif;
+}
+.top-bar-screen>.col-md-12>ul>li>a:hover{
+	color :#563d7c ;
+	border-bottom: solid 2px #563d7c;
+	text-decoration : none;
+}
+.top-bar-screen > .col-md-12 > span {
+    font-size: 1.3em;
+    font-family: "Nunito Sans",sans-serif;
+    line-height: 31px;
+    color: #694ba1;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.manga-table > .row:nth-child(n){
+	margin: 0;
+	padding-bottom :1rem ;
+	border-bottom : solid 1px #8080804d;
+}
+@media only screen and (max-width: 768px){
+	.top-bar-screen{
+		text-align: center;
+	}
+.manga-x>*{
+	text-align: center;
+}
+.screen{
+	margin : 0;
+	margin-bottom : 1rem;
+}
+	.manga-x>.col-md-5>.row>.col-md-6>img{
+	margin-bottom: -2rem;
+	margin-top: 1rem;}
+	.time-r{
+		display: none;
+	}
+.top-bar-screen>.col-md-12>span{
+	margin-bottom: 0.5rem;
+}
+}
+.manga-title{
+	color: #333;
+	font-weight: 600;
+	font-size :  18px	;
+}
+.genre_m{
+	color: #777;
+font-size: 11px;
+}
+.chapt-btn>.col-md-12>table>tbody>tr>td>button{
+	background-color: #ebebeb;
+padding: 4px 10px;
+border-radius: 10px;
+font-weight: 602;
+border: none;
+font-size: 13px;
+margin-top: 0.8rem;
+margin-right: 0.2rem;
+color : #666;
+transition: color 0.8s;
+transition: background 0.8s;
+outline: none;
+}
+.chapt-btn>.col-md-12>table>tbody>tr>td>span{
+	color: #888888;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 60px;
+}
+.chapt-btn>.col-md-12>table>tbody>tr>td>button:hover{
+background: #6d5098;
+color: #eeedf0;
+transition: color 0.8s;
+transition: background 0.8s;
+}
+.date-chapt>.col-md-6{
+	    font-size: 11px;
+	    color :#666;
+}
+.chapt-btn>.col-md-6:nth-child(2)>strong{color: #333333;
+font-weight: 708;
+font-size: 12px;}
+.chapt-btn>.col-md-6:nth-child(1)>strong{color: #333333;
+font-weight: 708;
+font-size: 12px;}
+@media  screen and (max-width: 1199px){
+	.top-bar-screen>.col-md-12>ul>li>a:hover{
+		border : none;
+	}
+}
+@media screen and (max-width : 767px) and (min-width :576px){
+.chapt-btn{
+margin-left: 1.1rem;}
+.genre_m{
+	margin-left: 1.1rem;
+}
+}

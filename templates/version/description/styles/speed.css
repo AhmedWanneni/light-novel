@@ -1,0 +1,6 @@
+    #top-bar-connection-speed{height: 0.2rem;
+    background: #765e9c;
+    width: 0%;
+    transition-property : width;
+    transition-timing-function : cubic-bezier(0.01, 0.94, 1, 0.18);
+}

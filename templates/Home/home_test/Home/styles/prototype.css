@@ -1,0 +1,40 @@
+/**************************[Prototype]*************************************/
+:root{
+		/*============[Color]=============*/
+		--pink : #cb8292;
+		--blue : #f3b3a6;
+		--white : #e7ecef;
+		--purple :#071013 ;
+		--yellow : #d8a47f;
+		/*=============[font]=============*/
+		--first :'Poppins', sans-serif;
+		--second : 'Montserrat', sans-serif;
+	}
+	body{
+			background-color: var(--white);
+			background: url('http://demo.mangabooth.com/wp-content/themes/madara/images/bg-search.jpg');
+			
+		}
+	.content{
+		margin-top: 1rem;
+		}
+
+
+   ::selection {
+  color: white; 
+  background: #694ba1;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #cbbde2;
+}
+body::-webkit-scrollbar-thumb {
+    background: #694ba1;
+    border-radius: 29px;
+    box-shadow: inset 0px 8px 1px 2px #cbbde2;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: #694ba1;
+}

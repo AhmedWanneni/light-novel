@@ -1,0 +1,527 @@
+.profile{
+ 
+    margin-top : 1rem;
+    margin-bottom : 1rem;
+
+}
+.profile-content{
+ 
+    padding: .5rem;
+    padding-top : 0rem;
+    margin-bottom: 1rem;
+    border-bottom: solid 1px #80808038;
+    background: #fff;
+    box-shadow: 1px 1px 3px #cccccce6;
+}
+.profile-content>.col-md-8{
+    background : #fff;
+    
+}
+.profile-content>.col-md-4>img {
+    background: #fff;
+    box-shadow: 0px 2px 2px 1px #53338333;
+    margin-top: 1rem;
+}
+.profile-top {
+    background: #fff;
+    padding-bottom: .8rem;
+    border-bottom: solid 1px #8080805c;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 3px #cccccce6;
+}
+
+.profile-top>span:nth-child(1) {
+    font-size: 1.4rem;
+    margin-left: .6rem;
+    top: .2rem;
+    position: relative;
+    font-size: 24px;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+}
+.profile-top>span:nth-child(2) {
+    
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    
+    margin-left: .2rem;
+}
+.profile-top>span:nth-child(3){
+    float: right;
+    margin-top: 4px;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    margin-left: .1rem;
+}
+.profile-top>span:nth-child(2)>button>svg{
+width: 1rem;
+margin-top: -3px;
+fill: #4a4949;
+margin-left: 3px;}
+
+.profile-top>span:nth-child(2)>button{
+    
+        position: absolute;
+        top: 15px;
+        right: 46px;
+        width: 14%;
+        height: 54%;
+        background: #f8f9fa;
+        border: none;
+        color: #666666;
+        border-radius: 0.2rem;
+        font-size: 19px;
+    
+}
+.profile-content img{
+    width: 87%;
+}
+.profile-content>.col-md-4{
+    text-align:center;
+}
+.profile-reading>.col-md-12{
+    /*background: #fff;*/
+    margin-bottom : 1rem;
+}
+.profile-reading>.col-md-12>.ln{
+    display : none
+}
+.profile-reading>.col-md-12>.badges{
+    display : none
+}
+
+.profile-reading>.col-md-12>.profile-reading-nav>button{
+    border : none;
+    background:none;
+}
+.profile-reading-nav{
+    
+   
+}
+.profile-reading>.col-md-12>.profile-reading-nav>button:nth-child(n) {
+    background: #F8F9FA;
+    
+    color: #563d7c;
+    font-weight: 600;
+    border-top: solid 1px #8080805c;
+    border-bottom: none;
+    height: 2.5rem;
+    position: relative;
+    top: .21rem;
+    margin-left: -.3rem;
+    outline:none;
+   
+}
+.profile-reading>.col-md-12>.profile-reading-nav>button:nth-child(1)
+{
+    background: #ffffff;
+   
+    height: 3rem;
+    color: #563d7c;
+    font-weight: 600;
+    border-left :solid 1px #8080806e ;    
+    margin-left: 0rem;
+    border-top: solid #563d7c;
+}
+
+
+
+.profile-reading>.col-md-12>.profile-reading-nav>button:nth-child(2){
+    margin-right: .1rem;
+}
+
+.finish{
+    background: #fff;
+    border: solid 1px #80808047;
+    border-top: none;
+    padding: 1rem;
+
+}
+.ln{
+    background: #fff;
+    border: solid 1px #80808047;
+    border-top: none;
+    padding: 1rem;
+
+}
+.badges{
+    background: #fff;
+    border: solid 1px #80808047;
+    border-top: none;
+    padding: 1rem;
+
+}
+.uploaded-chapters{
+    background: #fff;
+    border: solid 1px #80808047;
+    border-top: none;
+    padding: 1rem;
+    display: none;
+}
+.upload-profile-img {
+    background: #000000db;
+    position: absolute;
+    top: 1rem;
+    width: 80%;
+    height: 90.2%;
+    opacity: 0;
+    transition: opacity .3s linear;
+    left: 2.3rem;
+}
+input[type="file"]{
+    display : none;
+}
+.upload-profile-img-btn{
+    display: table;
+}
+.upload-profile-img-btn>svg {
+    width: 23%;
+    fill: #c3c3c3;
+    margin-left: 0;
+    margin-top: 48%;
+    cursor : pointer;
+   
+}
+.upload-profile-img>strong {
+    color: white;
+    font-size: 30px;
+    margin-left: 0;
+    font-weight: 600;
+    display : none;
+    
+}
+
+#load_data
+{
+    position: relative;
+    top: 24rem;
+    right: -32rem;
+    width: 12rem;
+    height: 3rem;
+    background: #563d7c;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.profile-top img{
+    width:2rem;
+}
+
+thead{
+    border-bottom: solid 1px #80808040;
+}
+    /*========================= profile Settings ======================= */
+    .table-setting-profile {
+        margin-top: 24px;
+    }
+    .table-setting-profile .row {
+        margin-bottom: 1rem;
+        border-bottom: solid 1px #8080803b;
+        padding-bottom: 1rem;
+        width: 44rem;
+    }
+    .table-setting-profile>.row:nth-last-child(1){
+        border: none;
+    }
+    .table-setting-profile .row>div:nth-child(1){
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .table-setting-profile input[type=text]{
+    
+        width: 23rem;
+        text-indent: .3rem;
+        border: solid 1px #80808066;
+        height: 2rem;
+        border-radius: .2rem;
+    
+}
+.table-setting-profile label{
+font-size: 20px;
+cursor: pointer;
+}
+#private{
+    margin-right : 2rem;
+}
+.table-setting-profile>.row:nth-last-child(1) button
+{
+    width: 27%;
+    height: 165%;
+    background: #563d7ccf;
+    border: none;
+    border-radius: .4rem;
+    color: white;
+    float: right;
+}
+
+.table-setting-profile .row>.col-md-4{
+   
+}
+.table-setting-profile>.row:nth-last-child(3)>.col-md-7>svg{
+    width: 5%;
+    margin-top: -4px;
+    margin-left: 5px;}
+    .container-checkbox>span:nth-child(3) {
+        margin-left: 2rem;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .table-setting-profile svg{
+        width : 5%;
+        margin-top : -2px;
+        fill : #666666;
+    }
+    .chapters>table>thead>tr>th{
+        font-weight: 600;
+        line-height: 60px;
+        text-indent: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        -webkit-font-smoothing: antialiased !important;
+    }
+    .chapters>.chapters-pagination>h3:nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #694ba1;
+    margin-left: -2px;
+    font-weight: 600;
+        display: inline-block;
+        position : relative;
+        top :3px;
+}
+.chapters>.chapters-pagination>span:nth-child(2){
+    float: right;
+}
+.chapters-pagination>span:nth-last-child(1) {
+    float: right;
+    margin-top: -31px;
+}
+
+.chapters-pagination>span:nth-last-child(2) button {
+    position: relative;
+    background-color: #fff;
+    width: 2.7rem;
+    height: 2.7rem;
+    border: solid 1px #80808061;
+    color: grey;
+    font-size: 26px;
+    padding-bottom: 5px;
+    margin-left: -6px;
+    outline: none;
+    top: -40px;
+    right: -143px;
+}
+.chapters-pagination>span:nth-last-child(2)>button:nth-child(1){
+    border-top-left-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+}
+.chapters-pagination>span:nth-last-child(2)>button:nth-child(2){
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+}
+
+.chapters>.chapters-pagination>span:nth-child(3)>a:nth-child(2){
+    padding: 9px 16px;
+    line-height: 25px;
+    margin-top: -4px;
+    margin-left: .5rem;
+}
+
+.chapters>.chapters-pagination>span:nth-last-child(1)>a:nth-child(n+2){
+margin-left: 1rem;
+
+}
+
+
+.chapters>.chapters-pagination>span:nth-child(2) span{
+font-size: 28px;
+color: #000000;
+margin-left :6rem;
+}
+
+.profile-reading>.col-md-12>.profile-reading-nav>button:nth-child(n) {
+    border-left: solid 1px #8080805c;
+    
+}
+.chapters table{
+    text-align : center;
+}
+
+
+/*==============================[Read bar progress]==================================*/
+
+
+.progress-read-bar{
+    background: #d4d4d4;
+    margin-left: 0.3rem;
+    width: 9rem;
+    display: inline-block;
+    height: .5rem;
+    vertical-align: middle;
+    border-radius: 1rem;}
+    .w-reach-read{
+    border-radius: 1rem;
+        background: #563d7c;
+        width: 5rem;
+        height: .5rem;}
+
+/*=============================[favoris heart react] ============================= */
+.badges>.chapters>table>tbody>tr>td:nth-child(5)>svg{
+    fill: #fd767f;
+}
+.finish>.chapters>table>tbody>tr>td:nth-child(4)>svg{
+    margin : 0 auto;
+    
+}
+.finish>.chapters>table>tbody>tr>td{
+    text-align: center;
+}
+.pag-active{
+    color : white !important;
+}
+.chapters-pagination>span:nth-child(n):not(.pag-active){
+    color: 	#694ba1;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+   
+    display: inline-block;
+    margin-right: 145px;
+    cursor: pointer;
+}
+
+  
+  .finish>.chapters>table>tbody>tr>td:nth-child(4) svg{
+   /* margin-right: 59px; */
+ 
+}
+
+.pag-active{
+    color: #fff;
+    padding: 9px 16px;
+    background: #563d7c;
+    margin-left: 0.4rem;
+    line-height: 25px;
+    margin-top: -4px;
+}
+/*============================ [Follow] =========================*/
+#follow {
+    background: #694ba1;
+    position: absolute;
+    width: 2.5rem;
+    height: 4.6rem;
+    top: -25px;
+    right: 13px;
+}
+#follow>svg {
+    fill: #f8f9fa;
+    width: 1.7rem;
+    margin-top: 14px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+#follow:after {
+    content: '';
+    background: #fff;
+    transform: rotate(45deg);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    bottom: -16px;
+    right: 4px;
+    background: linear-gradient(-45deg,#ff000000 50%,#fff 50%);
+}
+
+.table-setting-profile>.row:nth-child(7)>.col-md-7>span{
+    margin-left : 1rem;
+}
+.table-setting-profile>.row:nth-child(8)>.col-md-7>span{
+    margin-left : 1rem;
+}
+/*Focus background*/
+
+.focus-background{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000000e8;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.up_username {
+    display: none;
+    width: 28rem;
+    height: 12rem;
+    background: #fff;
+    margin-top: 14rem;
+    margin-left: 29rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.up_email{
+    display: none;
+    width: 28rem;
+    height: 12rem;
+    background: #fff;
+    margin-top: 14rem;
+    margin-left: 29rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    }
+    .up_username>button{
+        background: #694ba1;
+        border: none;
+        color: #fff;
+        padding: .3rem;
+        border-radius: .3rem;
+        width: 5rem;
+        font-size: 17px;
+        float: right;
+        margin-right: .3rem;
+        position: relative;
+        bottom: -57px;
+    }
+    .up_email>button{
+        background: #694ba1;
+        border: none;
+        color: #fff;
+        padding: .3rem;
+        border-radius: .3rem;
+        width: 5rem;
+        font-size: 17px;
+        float: right;
+        margin-right: .3rem;
+        position: relative;
+        bottom: -57px;
+    }
+    .up_username>input{
+    width: 26rem;
+    position: relative;
+    top: 21px;}
+
+    .up_email>input{
+        width: 26rem;
+        position: relative;
+        top: 21px;}
+        .up_username>svg{
+            width : 2rem;
+        }
+        .up_email>svg{
+            width : 2rem;
+        }
+        .close-focus{
+            position: absolute;
+            top: 14.5rem;
+            left: 54.5rem;
+            width: 2rem !important;
+            fill: #694ba1 !important;
+            cursor: pointer;
+        }

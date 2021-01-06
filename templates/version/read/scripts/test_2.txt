@@ -1,0 +1,26 @@
+<div class="content">
+		<h6 style="text-align: center;">Volume 1</h6>
+		<h3 style="text-align: center">Chaptre 41 - I Don't Intend To Stand Out</h3>
+			<div class="nbr-chapt">2</div>
+						<p>
+							
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	</p>
+
+</div>
+
+
+#focus-screen>.content {
+    background: white;
+    color: black;
+    width: 80%;
+    margin-left: 8%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+#focus-screen>.content>p{
+    margin-top: -4rem;
+}

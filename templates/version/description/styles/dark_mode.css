@@ -1,0 +1,122 @@
+body{
+    background-image: none;
+background-color : #0f0e11;
+}
+.description {
+    background: #19171c;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2%;
+    border: solid 1px #80808029;
+}
+.anchor::after{
+    background-color: #19171c; 
+}
+.go-to-num {
+    background-color: #19171c;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border: solid 1px #80808052;
+}
+.chapters {
+    background: #19171c;}
+
+    .ln-chapt {
+        background: #19171c;
+        margin-bottom: 1rem;
+        height: 43.6rem;
+        border: solid 1px #80808073;
+    }
+    .chapters>table>tbody>tr:nth-child(2n) {
+        background: #313131;
+        color: #888888;
+    }
+
+    .chapters-pagination {
+        background-color: #313131;}
+        .chapters-pagination>span:nth-child(n+2) {
+            color: rgba(0,0,0,.87);
+            font-size: 16px;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 19px;
+            color: #888888;
+            display: inline-block;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .chapters-pagination>span:nth-child(1) {
+            color: rgb(136, 136, 136);}
+
+            .search-chapters {
+              
+                background: #313131;
+                outline : none;
+                color : #888;
+            }
+            .chapters-header {
+                border-bottom: 2px solid #ebebeb1c;}
+
+                .rate {
+                    background: #19171c;
+                    width: 105%;
+                    margin-bottom: 1rem;
+                    border: solid 1px #8080804a;
+                    color: #d4d4d4;
+                }
+                .header-recomm {
+                    border-bottom: 2px solid #ebebeb1f;
+                    padding-top: 10px;
+                }
+                
+                .header-recomm {
+                    border-bottom: 2px solid #ebebeb1f;
+                    padding-top: 10px;
+                }
+                .info-novel {
+                    background: #19171c;
+                    width: 105%;
+                    margin-bottom: 1rem;
+                    padding-bottom: .5rem;
+                    color: #d4d4d4;
+                    border: solid 1px #80808057;
+                }
+                .recomm {
+                    background: #19171c;
+                    width: 105%;
+                    margin-bottom: 1rem;
+                    border: solid 1px #80808059;
+                }
+                .recomm>table>tbody>tr>td:nth-child(2)>div:nth-child(1) {
+                    color: rgb(212, 212, 212);}
+                    .recomm>table>tbody>tr>td:nth-child(2)>div:nth-child(2) {
+                        color: rgb(212, 212, 212);}
+
+                        .chapters>button {
+                            margin-top: 0px;
+                            -webkit-transition: all 200ms ease-out;
+                            -moz-transition: all 200ms ease-out;
+                            -o-transition: all 200ms ease-out;
+                            transition: all 200ms ease-out;
+                            border: 1px solid #0808084d;
+                            background-color: #292929a1;
+                            width: 100%;
+                            border-radius: 0;
+                            font-size: 14px;
+                            line-height: 2.142857142857143;
+                            font-weight: 600;
+                            font-family: 'Poppins', sans-serif;
+                            letter-spacing: 2px;
+                            outline: none;
+                            color: #d4d4d4;
+                        }
+                        .show-more-reco{
+                        background: #222123;
+                        border: solid 1px #80808026;
+                        color: #d4d4d4;}
+                        .recomm>table>tbody>tr {
+                            height: 12rem;
+                            border-bottom: none;
+                        }                       

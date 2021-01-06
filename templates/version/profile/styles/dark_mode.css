@@ -1,0 +1,58 @@
+body{
+    background-image: none;
+background-color : #0f0e11;
+}
+
+.profile-top {
+    background: #19171c;
+    padding-bottom: .8rem;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    border: solid 1px #80808029;
+}
+
+.profile-content {
+    padding: .5rem;
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+    background: #19171c;
+    box-shadow: none;
+    border: solid 1px #80808091;
+}
+.profile-content>.col-md-8 {
+    background: #19171c;
+    color: #d4d4d4;
+}
+.table-setting-profile svg {
+    fill: #d4d4d4;
+}
+.finish {
+    background: #19171c;
+    border: solid 1px #ffffff2e;
+    border-top: none;}  
+
+    .chapters>table>tbody>tr:nth-child(n) {
+        background: #19171c;}
+.chapters table{
+        background: #19171c;}
+        .chapters-pagination {
+            background-color: #313031;}
+            .chapters {
+                background: #19171c;
+            }
+            thead {
+                color: #d4d4d4;
+            }
+            .ln {
+                background: #19171c;}
+                .badges {
+                    background: #19171c;}
+                    .uploaded-chapters {
+                        background: #19171c;}
+
+                        .profile-reading>.col-md-12>.profile-reading-nav>button:nth-child(n) {
+                            border-left: solid 1px #7d7d7d5c;
+                            background: #19171c !important;
+                            color: #c2bcb1;
+                        }
